@@ -27,7 +27,7 @@ SECRET_KEY = os.environ.get('DJANGO_SECRET_KEY', ')+458j3cs#-mt3e!z5opy8$8b=j-kj
 # DEBUG = True
 DEBUG = os.environ.get('DJANGO_DEBUG', '') != False
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ['gentle-oasis-96124.herokuapp.com', '127.0.0.1']
 
 
 # Application definition
